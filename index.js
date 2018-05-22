@@ -9,9 +9,9 @@ class Driver {
   constructor(id, name){
     this.id = id;
     this.name = name;
-    this.id = driverId++;
-    store.drivers.push(this);
   }
+  this.id = driverId++;
+  store.drivers.push(this)
 }
 
 class Passenger {
